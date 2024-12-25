@@ -60,3 +60,8 @@
   .bullet-list {
     margin-top: 5px;
   }
+
+  .bullet-list li {
+    margin: 5px;
+    padding: 5px;
+  }

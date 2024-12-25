@@ -3,6 +3,7 @@
   grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
   gap: 20px;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .skill-card {

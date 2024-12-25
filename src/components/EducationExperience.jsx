@@ -21,7 +21,7 @@ export default function EducationExperience() {
           <b>360 Engineering & Environmental Consulting</b>
         </p>
         <p className="subtext">Digital Integration Co-Op Student</p>
-        <ul>
+        <ul className="bullet-list">
           <li>
             Spearheaded the successful migration of over 100 user profiles to
             Microsoft’s Azure Active Directory from an on-premise domain using
