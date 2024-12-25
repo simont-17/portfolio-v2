@@ -9,7 +9,7 @@ export default function Projects() {
           <div className="featured-container">
             <div className="featured-cards featured-two">
               <div className="featured-image-container">
-                <img src="public/tagstart-preview.png" alt="Project 2" />
+                <img src="/portfolio-v2/tagstart-preview.png" alt="Project 2" />
               </div>
               <div className="card-content">
                 <h3>TagStart</h3>
@@ -52,7 +52,7 @@ export default function Projects() {
             <div className="featured-cards featured-two">
               <div className="featured-image-container">
                 <img
-                  src="public/projectivity-preview.png"
+                  src="/portfolio-v2/projectivity-preview.png"
                   alt="Project 2"
                 />
               </div>
@@ -91,7 +91,7 @@ export default function Projects() {
             </div>
             <div className="featured-cards featured-three">
               <div className="featured-image-container">
-                <img src="public/cla-preview.png" alt="Project 3" />
+                <img src="/portfolio-v2/cla-preview.png" alt="Project 3" />
               </div>
               <div className="card-content">
                 <h3>Canadian Law Adventure</h3>
@@ -125,7 +125,7 @@ export default function Projects() {
             </div>
             <div className="featured-cards featured-four">
               <div className="featured-image-container">
-                <img src="public/portfolio-preview.png" alt="Project 4" />
+                <img src="/portfolio-v2/portfolio-preview.png" alt="Project 4" />
               </div>
               <div className="card-content">
                 <h3>Portfolio</h3>
