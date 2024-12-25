@@ -1,8 +1,8 @@
 export default function SocialNav() {
   return (
     <div className="social-icons">
-      <a className="resume-button" href="Truong Simon Resume 2024-12-13.pdf" target="_blank">
-        <span>Resume</span>
+      <a className="resume-button" href="/portfolio-v2/Truong Simon Resume 2024-12-13.pdf" target="_blank">
+        <h4>Resume</h4>
         <span>
           <svg
             width="24"

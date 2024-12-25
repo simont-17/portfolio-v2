@@ -1,11 +1,12 @@
 import "../styling/FeaturedProjects.css";
+import { Link } from "react-router-dom";
 
 export default function FeaturedProjects() {
   return (
     <div className="featured-projects">
       <div className="featured-title">
         <p>Featured Projects</p>
-        <a href="/portfolio-v2/projects">View More →</a>
+        <Link to="/projects">View More →</Link>
       </div>
       <div className="featured-container">
         <div className="featured-cards featured-two">
