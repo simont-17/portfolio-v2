@@ -1,16 +1,56 @@
+/* General styles for larger screens remain unchanged */
 .nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow: hidden;
 
-}
-.nav-fn p {
+  }
+  
+  .nav-fn p {
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 600;
-}
-.nav-tabs a {
+    white-space: nowrap;
+  }
+  
+  .nav-tabs a {
     padding: 20px;
     font-size: 20px;
-    font-family: Montserrat
-}
+    font-family: Montserrat;
+    white-space: nowrap;
+  }
+  
+
+  @media (max-width: 768px) {
+    .nav-fn p {
+      font-size: 18px; 
+      content: "ST";
+      display: inline-block;
+    }
+  
+    .nav-fn p::before {
+      content: "ST"; 
+    }
+  
+    .nav-fn p {
+      visibility: hidden; 
+      font-size: 14px;
+    }
+  
+    .nav-fn p::before {
+      visibility: visible; 
+    }
+
+    .nav-tabs a {
+        padding: 10px;
+        font-size: 14px;
+        font-family: Montserrat;
+        white-space: nowrap;
+      }
+    
+    
+  }
+  
+  

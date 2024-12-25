@@ -9,7 +9,6 @@ export default function NavBar() {
         </div>
         <div className="nav-tabs">
           <a>about me</a>
-          <a>skills</a>
           <a>projects</a>
         </div>
       </nav>
