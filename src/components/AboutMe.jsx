@@ -8,11 +8,10 @@ export default function AboutMe() {
   return (
     <>
       <div className="about-me">
-        <h1>hi, i'm simon</h1>
-        <p>22 year old, calgary-based</p>
+        <h1>Hi, I'm Simon 👋</h1>
+        <p>22 year old from Calgary, Alberta</p>
         <p>
-          A full stack developer with a love for caffeine and solving problems
-          with code
+          I'm a full stack developer with a love for caffeine and solving everyday problems with lines of code.
         </p>
         <SocialNav/>
         <SkillsSection/>

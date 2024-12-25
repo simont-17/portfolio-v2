@@ -11,9 +11,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    height: 300px;
-    width: 320px;
+
+    height: 420px;
+    width: 340px;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -64,5 +64,26 @@
    
   }
   .card-content {
+
     padding-left: 20px;
   }
+
+
+  
+  .tag {
+    display: inline-block;
+    background-color: #414141;
+    color: #fcfcfc;
+    padding: 3px 7px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .tag:hover {
+    background-color: #3a3a3a;
+    color: #fff;
+  }
+  

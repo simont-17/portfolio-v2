@@ -6,7 +6,7 @@ export default function NavBar() {
     <>
       <nav className="nav-bar">
         <div className="nav-fn">
-          <p>SIMON TRUONG</p>
+        <p>&lt;/struong&gt;</p>
         </div>
         <div className="nav-tabs">
           <Link to="/about-me">about me</Link>
