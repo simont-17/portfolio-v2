@@ -1,0 +1,44 @@
+.about-me {
+    text-align: left;
+}
+
+.resume-button {
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    background-color: transparent;
+    color: white;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: rgb(150, 207, 203);
+    font-weight: 00;
+    font-size: 0.rem;
+    padding: 5px;
+}
+
+.resume-button span {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.resume-button:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 24%);
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+a > svg {
+    stroke: hsl(0, 0%, 100%);
+    stroke-width: 1px;
+}
+
+a > svg:hover {
+    opacity: 70%;
+}
+
+
