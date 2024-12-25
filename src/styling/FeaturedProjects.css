@@ -22,7 +22,7 @@
   
   .featured-cards:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background-color: hsl(0, 0%, 19%);
     cursor: pointer;
   }
   

@@ -16,14 +16,13 @@
   padding: 15px;
   height: 100px;
   transition: border-color 0.3s ease;
-  cursor: pointer;
   overflow: hidden;
   text-align: center;
 }
 
 .skill-card:hover {
-  border-color: #f5f3f3;
-  opacity: 80%;
+
+  background-color: hsl(0, 0%, 19%);
 }
 
 .logo-container {
@@ -47,7 +46,7 @@
 }
 
 .skill-card:hover .logo-container img {
-  opacity: 0.7;
+ 
 }
 
 .skill-card p {
