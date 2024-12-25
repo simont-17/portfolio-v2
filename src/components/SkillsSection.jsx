@@ -1,4 +1,6 @@
 import "../styling/skills.css";
+import "../styling/TabList.css"
+
 
 export default function SkillsSection() {
 
@@ -24,6 +26,7 @@ export default function SkillsSection() {
           <p>{skill.name}</p>
         </div>
       ))}
+  
     </div>
   )
 }

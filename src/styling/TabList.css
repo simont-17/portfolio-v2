@@ -1,0 +1,42 @@
+/* General styling for the tab list */
+.tabs-list {
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: hsl(0, 0%, 24%);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Style for individual tab triggers */
+  .tab-trigger {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 24%);
+    border: none;
+    color: gray;
+    border-radius: 2px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    width: 40%;
+  }
+  
+  /* Active tab style */
+  .tab-trigger[data-state='active'] {
+    background-color: hsl(0, 0%, 14%);
+    /* border-color: #007bff; */
+    color: white;
+  }
+  
+  /* Styling for the tab content */
+  .tab-content {
+    /* padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9; */
+  }
+  

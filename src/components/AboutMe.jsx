@@ -1,6 +1,7 @@
 import "../styling/AboutMe.css";
 import SocialNav from "./SocialNav";
 import SkillsSection from "./SkillsSection";
+import TabComponent from './EducationExperience';
 
 export default function AboutMe() {
   return (
@@ -14,6 +15,7 @@ export default function AboutMe() {
         </p>
         <SocialNav/>
         <SkillsSection/>
+        <TabComponent/>
       </div>
     </>
   );
