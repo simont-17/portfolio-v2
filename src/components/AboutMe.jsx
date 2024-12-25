@@ -16,8 +16,8 @@ export default function AboutMe() {
         </p>
         <SocialNav/>
         <SkillsSection/>
-        <FeaturedProjects/>
         <TabComponent/>
+        <FeaturedProjects/>
         
       </div>
     </>

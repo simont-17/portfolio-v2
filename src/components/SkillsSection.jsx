@@ -12,7 +12,7 @@ export default function SkillsSection() {
     { name: "Python", logo: "../src/images/python-logo.png"},
     { name: "JavaScript",logo: "../src/images/js-logo.png"  },
     { name: "SQL",logo: "../src/images/sql-logo.png"  },
-    { name: "HTML5", logo: "../src/images/html-logo.png"},
+    { name: "HTML", logo: "../src/images/html-logo.png"},
     { name: "CSS", logo: "../src/images/css-logo.png" },
   ];
 
