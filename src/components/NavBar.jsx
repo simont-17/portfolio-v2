@@ -1,4 +1,5 @@
 import "../styling/NavBar.css";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
@@ -8,8 +9,8 @@ export default function NavBar() {
           <p>SIMON TRUONG</p>
         </div>
         <div className="nav-tabs">
-          <a>about me</a>
-          <a>projects</a>
+          <Link to="/about-me">about me</Link>
+          <Link to="/projects">projects</Link>
         </div>
       </nav>
     </>

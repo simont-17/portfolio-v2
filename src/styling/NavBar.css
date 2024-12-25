@@ -1,11 +1,9 @@
-/* General styles for larger screens remain unchanged */
 .nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
     overflow: hidden;
-
   }
   
   .nav-fn p {
@@ -15,42 +13,44 @@
     white-space: nowrap;
   }
   
-  .nav-tabs a {
+  .nav-tabs a, .nav-tabs .nav-link {
     padding: 20px;
     font-size: 20px;
     font-family: Montserrat;
     white-space: nowrap;
+    text-decoration: none; 
+    color: inherit; 
   }
   
-
+  .nav-tabs a:hover, .nav-tabs .nav-link:hover {
+    color: #ffffff; 
+  }
+  
   @media (max-width: 768px) {
     .nav-fn p {
-      font-size: 18px; 
+      font-size: 18px;
       content: "ST";
       display: inline-block;
     }
   
     .nav-fn p::before {
-      content: "ST"; 
+      content: "ST";
     }
   
     .nav-fn p {
-      visibility: hidden; 
+      visibility: hidden;
       font-size: 14px;
     }
   
     .nav-fn p::before {
-      visibility: visible; 
+      visibility: visible;
     }
-
-    .nav-tabs a {
-        padding: 10px;
-        font-size: 14px;
-        font-family: Montserrat;
-        white-space: nowrap;
-      }
-    
-    
-  }
   
+    .nav-tabs a, .nav-tabs .nav-link {
+      padding: 10px;
+      font-size: 14px;
+      font-family: Montserrat;
+      white-space: nowrap;
+    }
+  }
   
