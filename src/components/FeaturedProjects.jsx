@@ -5,12 +5,12 @@ export default function FeaturedProjects() {
     <div className="featured-projects">
       <div className="featured-title">
         <p>Featured Projects</p>
-        <a href="/projects">View More →</a>
+        <a href="/portfolio-v2/projects">View More →</a>
       </div>
       <div className="featured-container">
         <div className="featured-cards featured-two">
           <div className="featured-image-container">
-            <img src="../src/images/tagstart-preview.png" alt="Project 2" />
+            <img src="public/tagstart-preview.png" alt="Project 2" />
           </div>
           <div className="card-content">
             <h3>TagStart</h3>
@@ -29,7 +29,7 @@ export default function FeaturedProjects() {
         </div>
         <div className="featured-cards featured-two">
           <div className="featured-image-container">
-            <img src="../src/images/projectivity-preview.png" alt="Project 2" />
+            <img src="public/projectivity-preview.png" alt="Project 2" />
           </div>
           <div className="card-content">
                 <h3>Projectivity</h3>

@@ -6,14 +6,14 @@ export default function SkillsSection() {
 
 
   const skills = [
-    { name: "React", logo: "../src/images/react-logo.png"},
-    { name: "Node.js", logo: "../src/images/node-logo.png" },
-    { name: "Express.js", logo: "../src/images/express-logo.png" },
-    { name: "Python", logo: "../src/images/python-logo.png"},
-    { name: "JavaScript",logo: "../src/images/js-logo.png"  },
-    { name: "SQL",logo: "../src/images/sql-logo.png"  },
-    { name: "HTML", logo: "../src/images/html-logo.png"},
-    { name: "CSS", logo: "../src/images/css-logo.png" },
+    { name: "React", logo: "public/react-logo.png"},
+    { name: "Node.js", logo: "public/node-logo.png" },
+    { name: "Express.js", logo: "public/express-logo.png" },
+    { name: "Python", logo: "public/python-logo.png"},
+    { name: "JavaScript",logo: "public/js-logo.png"  },
+    { name: "SQL",logo: "public/sql-logo.png"  },
+    { name: "HTML", logo: "public/html-logo.png"},
+    { name: "CSS", logo: "public/css-logo.png" },
   ];
 
   return (
