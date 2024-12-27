@@ -38,12 +38,11 @@
   
 
   .tab-content {
-    padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
- 
+    border-radius: 0.5rem;
+ outline: none;
   }
-  
+
   .subtext {
     color: rgb(151, 151, 151);
     margin-top: 0px;
@@ -62,33 +61,37 @@
   }
 
   .bullet-list {
-    margin-top: 5px;
+    margin-left: 2.5rem;
     border-left: 1px solid white;
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
     
   }
 
+
   .bullet-list li {
-    margin: 5px;
-    padding: 5px;
+    position: relative;
+    margin-left: 0rem;
+    padding: 0.5rem 0;
   }
 
   .description-list {
-    padding-left: 12px
+    padding-left: 12px;
   }
 
-  .company-logo-container {
+  .company-logo-container,  .education-logo-container  {
     position: relative;
     display: flex;
     flex-shrink: 0;
     overflow: hidden;
-    border-radius: 50%; 
-    width: 3rem; 
-    height: 3rem; 
-    border: 1px solid currentColor; 
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
   }
 
-  .company-logo {
+  .company-logo, .education-logo {
     aspect-ratio: 1 / 1; 
     height: 100%; 
     width: 100%; 
@@ -97,14 +100,21 @@
   }
 
 
-  .company-link {
+  .company-link, .education-link {
     position: absolute;
-    left: 30.5rem; 
-    /* top: 1rem;    */
+    left: -4rem; 
+    top: 1rem; 
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    /* background-color: #ffffff; */
-    text-decoration: none;  
+    background-color: #fff;
+    text-decoration: none;
+    width: 3rem; 
+    height: 3rem; 
   }
+
+  .company-logo:hover, .education-logo:hover {
+    opacity: 70%;
+  }
+  
